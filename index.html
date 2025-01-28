@@ -1,0 +1,141 @@
+<html>
+ <head>
+  <title>
+   Penjelasan Untuk Memperbaiki
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   @keyframes spin-slow {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .animate-spin-slow {
+            animation: spin-slow 3s linear infinite;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 flex items-center justify-center min-h-screen relative">
+  <img alt="Background image of a beautiful sunset over a calm sea with a silhouette of a couple" class="absolute inset-0 w-full h-full object-cover z-0" src="https://wallpaperaccess.com/full/1979442.jpg"/>
+  <div class="bg-white p-8 rounded-lg shadow-lg text-center relative z-10">
+   <h1 class="text-3xl font-bold text-red-500 mb-4">
+    Kamu mau Baca?
+   </h1>
+   <img alt="Gambar hati merah dengan latar belakang putih" class="w-48 mx-auto cursor-pointer transition-transform transform hover:scale-110" onclick="showQuestion()" src="https://placehold.co/200x200/ff6b6b/ffffff/png?text=Love"/>
+   <div class="question mt-4 text-lg text-gray-700 hidden" id="question">
+    <p>
+     Pilih
+    </p>
+    <div class="flex justify-center mt-4 space-x-4">
+     <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600" onclick="showYesResponse()">
+      Iya
+     </button>
+     <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" onclick="showNoResponse()">
+      Tidak
+     </button>
+    </div>
+   </div>
+   <div class="response mt-4 text-lg text-pink-500 hidden" id="yes-response">
+    <p class="animate-bounce">
+     Penjelasan
+    </p>
+    <div class="flex justify-center mt-4 space-x-4">
+     <i class="fas fa-heart text-red-500 text-2xl animate-pulse">
+     </i>
+     <i class="fas fa-kiss-wink-heart text-pink-500 text-2xl animate-pulse">
+     </i>
+     <i class="fas fa-grin-hearts text-yellow-500 text-2xl animate-pulse">
+     </i>
+    </div>
+    <div class="mt-4">
+     <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="showStoryPage()">
+      Baca Penjelasan
+     </button>
+    </div>
+   </div>
+   <div class="response mt-4 text-lg text-gray-700 hidden" id="no-response">
+    <p>
+     Yaudah kalau gamau huhu
+    </p>
+    <div class="flex justify-center mt-4 space-x-4">
+     <i class="fas fa-sad-tear text-blue-500 text-2xl animate-pulse">
+     </i>
+     <i class="fas fa-heart-broken text-red-500 text-2xl animate-pulse">
+     </i>
+    </div>
+   </div>
+  </div>
+  <div class="bg-white p-8 rounded-lg shadow-lg text-left relative z-10 hidden max-w-3xl mx-auto" id="story-page">
+   <h2 class="text-2xl font-bold text-gray-800 mb-4">
+    Cerita
+   </h2>
+   <div class="w-full h-96 p-4 border border-gray-300 rounded-lg overflow-y-auto">
+    <p>
+     Jadi semua berawal dari aplikasi itu yg kmrn Omi, ak tu mulai dri pas itu kapan to kei lupa ak udh an tanggal nya tpi yg pasti ada di bulan Januari, waktu itu ak lgi liat itu dia nge follow Omi ak folback trs chat dia hi, ak jawab apa, trs ak mulai chat kmu masih SMA? Dia jawab iya kls 2, SMA mana kan di Omi yg terdekat" ak tau deh dia tinggal di tmg, ak tanya dia bilang SMA 2, hah serius ak ga expect aja ternyata ak cwe tmg main Omi, trs berlanjut" dri situ dia itu cerita klo dia punya mantan trs udh 4 tahun malah diputusin dia, trs kaya ngejual rasa iba gitu a ak sebenarnya gmw iba udh mikirin kmu tpi gtw ak khilaf aja trs ak chatan trs di Omi lanjut wa itu, di wa ak tanya" kesehariannya blablabla, sok masak dll, waktu itu ak penasaran ma dia ak wacana lah ketemu tpi pas ak kesana dia ga dirumah emg sengaja kayanya dia lgi di bengkel, yaudah ak pulang santai sebelum sampe rumah dia ak jatuh di pasir" itu mo minggir mo liat map malah jatuh karena rem depan, disitu entah knpa keinget kmu a ak mau balik karena gajelas map-nya juga, tpi malah ak lanjutin karena diliatin org dah malu, trs sampe sana ya gitu dia gada, ak pulang trs lanjut chat" lgi ak mulai pembahasan yg ga senonoh karena disitu ak gtw lgi nafsuan aja ak mulai trs" ak pancing" biar dpt sampe telfon itu awalnya telfon pertama ak tanya kmu lgi ngpain dia bilang lgi masak ma mau njemur pakaian, ak ilfil dah an logat dia logat Jawa jamet dah gmw tpi ak gtw khilaf nafsu kei, yaudah ak bilang baca chat itu, ak pancing" itu to trs udh dia kepancing trs vc sekali itu ak mau nunjukin punyaku tpi gmw ak awalnya tpi dia dah nunjukin punya dia, trs ak nunjukin punyaku trs ya gitu kei tpi sekedar TT doang ga sampe c0lmek engga kei, trs udh trs ya ak minta maaf aja karena biasanya asehabis gitu mesti nyesel, sambil keinget kmu knpa ak ngelakuin ini ak kedepannya gbisa lgi jdi ak buat mainan aja dia soalnya waktu itu ak mo cukur gada uang malah dikasih 25k itu kei ak cukur ak beli roko pas itu maaf ya..., trs udh cukur lanjut tu ak main ke moren toh, habis tu bsknya sekolah itu lanjut biasa" ak chatan a ak gtw kenapa ga ngerasa bersalah malah pengen porotin dia aja, make uangnya yg telfon kedua ak tanya kmu mau kesini ga gitu trs dia mesti ada aja alasan gmw dll, ydh telfonnya trs lanjut itu biasa chatan Gimik biar ak dpt uang dia, dan ketauwan kmu udh kei, maaf bgt ak ngerasa bersalah bgt ak gtw lgi harus gmna yg lalu biarlah berlalu kei... A ak baru sadar aja ternyata sakit hati seberdampak ini dikehidupanku, a ak gmw lgi kei pls kasih ak harapan kei a ak mau harapan lgi kei ak mau main ma kmu kei pls kei.... Miss u kei
+    </p>
+   </div>
+   <div class="mt-4 text-right">
+    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="showApologyPage()">
+     Maaf
+    </button>
+    <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" onclick="hideStoryPage()">
+     Tutup
+    </button>
+   </div>
+  </div>
+  <div class="bg-white p-8 rounded-lg shadow-lg text-left relative z-10 hidden max-w-3xl mx-auto" id="apology-page">
+   <h2 class="text-2xl font-bold text-gray-800 mb-4">
+    Permintaan Maaf
+   </h2>
+   <div class="w-full h-96 p-4 border border-gray-300 rounded-lg overflow-y-auto">
+    <p>
+     Aku tau aku salah, dan aku sadar banget kalau apa yang udah aku lakuin bikin semuanya berubah. Aku nggak nyalahin kamu kalau kamu jadi kecewa atau bahkan marah sama aku. Aku cuma pengen kamu tau kalau aku nyesel banget atas semuanya. Aku bener-bener nggak pernah punya niat buat nyakitin kamu atau bikin hubungan kita jadi kayak sekarang.
+    </p>
+    <p>
+     Aku sadar, mungkin kata maaf aja nggak cukup buat benerin semuanya. Tapi aku pengen kamu tau kalau aku bener-bener tulus minta maaf. Aku nggak mau kita terus-terusan kayak gini, berjauhan dan ngerasa asing satu sama lain. Aku kangen banget sama kita yang dulu, yang bisa ketawa bareng, ngobrol tanpa ada rasa canggung. Kalau aja aku bisa balik ke waktu itu, aku pasti bakal ngelakuin semuanya dengan cara yang beda. Aku mau buktiin kalau aku bisa lebih baik, kalau aku bisa jadi orang yang pantas buat ada di samping kamu lagi. Aku cuma minta satu kesempatan, nggak lebih.
+    </p>
+    <p>
+     Aku tau nggak gampang buat kamu percaya lagi sama aku, dan aku nggak mau maksa kamu buat nerima aku sekarang. Tapi aku cuma pengen kamu tau kalau aku bakal nunggu, seberapa lama pun itu. Karena buat aku, hubungan ini terlalu berharga buat dilepasin gitu aja. Maaf kalau kata-kataku berantakan, aku cuma pengen jujur sama apa yang aku rasain. Aku harap, suatu hari nanti kita bisa ngobrol lagi kayak dulu, tanpa ada rasa sakit atau penyesalan yang ngikutin. Aku cuma mau bilang, aku masih peduli, dan aku nggak pernah berhenti berharap.
+    </p>
+   </div>
+   <div class="mt-4 text-right">
+    <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" onclick="hideApologyPage()">
+     Tutup
+    </button>
+   </div>
+  </div>
+  <iframe allow="autoplay" class="hidden" id="background-music" src="https://www.youtube.com/embed/-TVknpWcCIo?autoplay=1&amp;loop=1&amp;playlist=-TVknpWcCIo">
+  </iframe>
+  <script>
+   function showQuestion() {
+            document.getElementById('question').classList.remove('hidden');
+            document.getElementById('background-music').classList.remove('hidden');
+        }
+        function showYesResponse() {
+            document.getElementById('question').classList.add('hidden');
+            document.getElementById('yes-response').classList.remove('hidden');
+        }
+        function showNoResponse() {
+            document.getElementById('question').classList.add('hidden');
+            document.getElementById('no-response').classList.remove('hidden');
+        }
+        function showStoryPage() {
+            document.getElementById('story-page').classList.remove('hidden');
+        }
+        function hideStoryPage() {
+            document.getElementById('story-page').classList.add('hidden');
+        }
+        function showApologyPage() {
+            document.getElementById('apology-page').classList.remove('hidden');
+        }
+        function hideApologyPage() {
+            document.getElementById('apology-page').classList.add('hidden');
+        }
+  </script>
+ </body>
+</html>
